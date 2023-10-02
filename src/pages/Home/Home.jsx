@@ -2,6 +2,7 @@
 import './home.css'
 import MainHeader from '../../Components/MainHeader'
 import Products from '../../Components/Products'
+import FAQs from '../../Components/FAQs'
 
 
 
@@ -12,6 +13,7 @@ const Home = () => {
     <>
     <MainHeader/>
     <Products/>
+    <FAQs/>
           </>
   )
 }

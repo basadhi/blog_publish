@@ -8,14 +8,14 @@ import Footer from './Components/Footer'
 import Contact from './pages/Contact/Contact'
 import Notfound from './pages/NotFound/Notfound'
 import React from 'react';
-import FAQs from "./Components/FAQs"
+
 
 const App = () => {
   return (
     <BrowserRouter>
 
     <Navbar/>
-      {/* <Routes>
+      <Routes>
       <Route index element={<Home/>}/>
         <Route path='about' element={<About/>}/>
         <Route path='contact' element={<Contact/>}/>
@@ -25,23 +25,14 @@ const App = () => {
         <Route path='*' element={<Notfound/>}/>
         
       </Routes>
-      <Footer/> */}
-      <Home/>
-      {/* <Contact/>
-      <Explore/>
-      <About/> */}
-      <FAQs/>
+      
+      
+      
       <Footer/>
     
     
     </BrowserRouter>
-    // <div>
-    //   <Home/>
-    //   <About/>
-    //   <Explore/>
-    //   <Gallery/>
-    // </div>
-  
+    
   )
 }
 

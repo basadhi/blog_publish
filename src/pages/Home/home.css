@@ -116,45 +116,7 @@
     color: var(--Selection-Background);
 }
 
-.values_container{
-    display: grid;
-    grid-template-columns: 38% 50%;
-    gap: 12%;
 
-}
-
-.values_image{
-    filter:saturate(0.25);
-    transition: var(--transition);
-}
-
-.values_image:hover{
-    filter: saturate(1);
-}
-
-.values_right >p{
-    margin: 1.5rem 0.5rem 0.6rem;
-    margin-bottom: 1rem;
-}
-
-.values_wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3.4rem 2.4rem;
-    
-}
-
-.card.values_value{
-    padding-top: 3.5rem;
-    text-align: left;
-    position: relative;
-}
-
-.card.values_value span{
-    position: absolute;
-    top: -1.5rem;
-
-}
 
 
 /*------FAQs-----*/
@@ -190,76 +152,7 @@
     margin-top: 1.5rem;
 }
 
-/*---testimonials---*/
 
-.testimonials{
-    width: 50rem;
-    margin-inline: auto;
-}
-
-.testimonial_head{
-    justify-content: center;
-
-}
-
-.card.testimonial{
-    position: relative;
-    text-align: left;
-    margin-top: 5rem;
-
-}
-
-.testimonial_avatar{
-    width: 6rem;
-    height: 5rem;
-    border: 2px solid transparent;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    position: absolute;
-    top: -2rem;
-    left: calc(50%-2rem);
-    box-shadow: 0 1.5rem 2rem rgba(72, 72, 173, 0.4);
-    transition: var(--transition);
-
-}
-
-.testimonial_avatar:hover{
-    border-radius: 100%;
-    border-color: var(--Disabled);
-
-}
-
-.testimonial_quote{
-    font-style: italic;
-    margin: 1rem 0 2rem;
-}
-
-.card small.testimonial_title{
-    margin-top: 0.3rem;
-}
-
-.testimonial_btn_container{
-    width: fit-content;
-    margin: 2.5rem auto 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-
-}
-
-.testimonial_btn{
-    background: transparent;
-    cursor: pointer;
-}
-
-.testimonial_btn svg{
-    fill: var(--backgroud-color);
-    font-size: 1.8rem;
-    width: 3rem;
-    height: 3rem;
-
-}
 
 /*-----footer----*/
 footer{
@@ -348,31 +241,18 @@ footer{
         margin-right: 8rem;
     }
 
-    .programs_wrapper{
+    .products_wrapper{
         grid-template-columns: 1fr 1fr ;
 
     }
 
-    .values_container{
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        gap: 4rem;
-    }
-    .values_wrapper{
-        gap: 4rem 3rem;
-    }
-    /* .values_image{
-        display: none;
-    } */
+    
 
     .faqs_wrapper{
         grid-template-columns: 1fr;
     }
 
-    .testimonials{
-        width: 75%;
-
-    }
+    
     .footer_container{
         grid-template-columns: 1fr 1fr;
         gap: 4rem;
@@ -393,36 +273,24 @@ footer{
     .main_header-container{
         grid-template-columns: 1fr;
     }
-    .programs_wrapper{
+    .products_wrapper{
         grid-template-columns: 1fr;
         gap: 2rem;
         margin-top: 3rem;
     }
-    .programs_program{
+    .products_product{
         width: 84%;
         margin: 0 auto;
     }
 
-    .values_wrapper{
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-    .values_image{
-        display: none;
-    }
-    .card.values_value{
-        width: 60%;
-        margin-inline:auto;
-        margin-right: 14rem;
-    }
+    
+   
     .faqs_wrapper{
         gap: 1rem;
         margin-top: 3rem;
 
     }
-    .testimonials{
-        width: 100%;
-    }
+   
     footer{
         margin-top: 7rem;
 
