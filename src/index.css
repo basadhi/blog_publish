@@ -57,7 +57,7 @@
 body{
 
     font-family: 'Montserrat',sans-serif;
-    color: var(--Text);
+    color: var(--Highlight);
     line-height: 1.7;
     overflow-y: auto;
     overflow-x: hidden;
