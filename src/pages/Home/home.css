@@ -234,16 +234,18 @@ footer{
         gap: 0;
 
     }
-    .main_header-rectangle{
+    .main_header-circle{
         width: 350px;
         height: 17.5rem;
         margin-right: 8rem;
         margin-bottom: 2.6rem;
+
         
     }
     .main_header-image{
         width: 350px;
         margin-right: 8rem;
+        position: relative;
     }
 
     .products_wrapper{
@@ -272,16 +274,20 @@ footer{
         padding: 12rem 0 0;
         height: 100vh;
     }
-    .main_header-image,.main_header-rectangle{
+    .main_header-image,.main_header-circle{
         display: none;
     }
     .main_header-container{
         grid-template-columns: 1fr;
     }
+    .product_container{
+        margin-top: -5rem;
+    }
     .products_wrapper{
         grid-template-columns: 1fr;
         gap: 2rem;
-        margin-top: 3rem;
+        margin-top: 1rem;
+        
     }
     .products_product{
         width: 84%;
