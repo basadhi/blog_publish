@@ -27,7 +27,7 @@
 
 .plan p{
     margin-top: 1rem;
-    color: var(--Contrast);
+    color: var(--Active);
 }
 
 .plan p.disabled{
@@ -37,6 +37,10 @@
 .plan button{
     margin-top: 3rem;
     cursor: pointer;
+    
+}
+.btn.lg{
+    border-color: black;
 }
 
 @media screen  and (max-width: 1024px){

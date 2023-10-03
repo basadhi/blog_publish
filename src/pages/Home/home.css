@@ -23,11 +23,12 @@
 .main_header-left{
     margin-top: -3rem;
 }
-/*
+
 .main_header-left h1{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-}*/
+    /* margin-top: 5rem;
+    margin-bottom: 2rem; */
+    color: var(--h);
+}
 .main_header-left h4{
     margin-top: 6rem;
     margin-bottom: 2rem;
@@ -56,12 +57,12 @@
 }
 .main_header-circle{
     width:400px;
-    height: 20rem;
-    margin-top: -5.2rem;
+    height: 15rem;
+    margin-top: -5.0rem;
     margin-left: 0.7rem;
     /* background: linear-gradient(75deg,var(--color-secondary),transparent); */
     /* border-radius: 50%; */
-    background: radial-gradient(circle, var(--color-secondary) ,70%, rgba(0,0,255,1) 94%);
+    background: radial-gradient(circle, var(--Accent-Color) ,65%, rgb(80, 78, 81) 94%);
     position: absolute;
     
     /* filter: blur(10px); */
@@ -95,6 +96,7 @@
 
 .products{
     margin-top: 4rem;
+    color: var(--Accent-color);
 }
 .products_wrapper{
     display: grid;
@@ -185,6 +187,9 @@ footer{
     margin-bottom: 0.6rem;
     font-size: 1rem;
 }
+.footer_container article a{
+    color: var(--Highlight);
+}
 
 .footer_social{
     margin-top: 1.5rem;
@@ -208,7 +213,7 @@ footer{
 
 .footer_social a:hover{
     border-color: var(--Border);
-    background: transparent;
+    background: var(--Disabled);
 }
 .footer_copyright{
     color: var(--color-gray-100);

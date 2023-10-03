@@ -7,8 +7,8 @@ import {plans} from '../../data'
 const Inspire = () => {
   return (
     <>
-    <Header title ="Inspire from the Quotes" image={HeaderImage}>
-    We're passionate about sharing knowledge and stories with you. "Browse our categories to find articles that pique your interest.
+    <Header title ="Explore our wiring section!" image={HeaderImage}>
+    We're eager in sharing the best series of wiring collection with you.Visit our shop in Embilipitiya!
         </Header>
     <section className='plans'>
       <div className="container plans_container">
@@ -17,7 +17,7 @@ const Inspire = () => {
             return <Card key={id} className='plan'>
               <h3>{name}</h3>
               <small>{desc}</small>
-              <h1>{`$${price}`}</h1><h2>/mo</h2>
+              <h1>{`Rs.${price}`}</h1><h2>/item</h2>
               <h4>Features</h4>
               {
                 features.map(({feature,available},index) => {

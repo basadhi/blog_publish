@@ -9,7 +9,7 @@
 
 
 :root{
-    --backgroud-color:#282A36;
+    --backgroud-color:#C2DEDC;
     
 
     --Foreground: #F8F8F2;
@@ -20,7 +20,8 @@
     
     --Selection-Foreground: #8BE9FD;
     
-    --Buttons: #393C4B;
+    /* --Buttons: #393C4B; */
+    --Buttons: #1AACAC;
     
     --Second-Background: #282A36;
     
@@ -32,13 +33,13 @@
     
     --Border: #21222C;
     
-    --Highlight: #6272A4;
+    --Highlight: #116A7B;
     
     --Tree: #44475A50;
     
     --Notifications: #1D2228;
 
-    --Accent-Color: #FF79C5;
+    --Accent-Color: #CDC2AE;
     
     --Excluded-Files-Color: #313341;
 
@@ -46,6 +47,8 @@
     --container-width-md:90%;
 
     --transition:all 500ms ease;
+    --h :#1F4172;
+    --navli:#040D12;
 
     
     
@@ -67,9 +70,9 @@ body{
     margin-inline: auto;
 }
 
-h1,h2,h3,h4,h5{
+h1,h3,h4,h5{
     line-height: 1.2;
-    color: var(--Selection-Background);
+    color: var(--h);
 }
 h1{
     font-size: 3rem;
@@ -77,9 +80,14 @@ h1{
 
 h2{
     font-size: 2rem;
+    color: var(--Accent-Color);
+    
+}
+h5{
+    font-size: 2rem;
 }
 a{
-    color: var(--Highlight);
+    color: var(--navli);
     text-decoration: none;
 }
 ul{
@@ -91,7 +99,7 @@ img{
     width: 100%;
 }
 .btn{
-    color: var(--Text);
+    color: var(--Contrast);
     width: fit-content;
     margin: 0 auto;
     padding: 0.9rem 2rem;
@@ -129,19 +137,20 @@ section{
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: var(--Contrast);
 }
 
 .section_head span{
-    background: var(--Accent-Color);
+    background: var(--h);
     padding: 0.8rem;
     border-radius: 1rem;
-    color: var(--Active);
+    color: var(--Accent-Color);
     font-size: 1.5rem;
 }
 
 
 .card{
-    background: var(--Contrast);
+    background: #132043;
     border: 2px solid transparent;
     text-align: center;
     padding: 3rem 2rem;
@@ -160,7 +169,7 @@ section{
     width: 3rem;
     height: 3rem;
     background: var(--Active);
-    color:var(--Selection-Foreground) ;
+    color:var(--backgroud-color) ;
     font-size: 1.5rem;
     padding: 0.8rem;
     display: grid;
@@ -213,7 +222,7 @@ section{
     width: 44%;
     margin: 0 auto;
     text-align: center;
-    color: var(--Accent-Color);
+    color: var(--Highlight);
 }
 
 .header_content h2{

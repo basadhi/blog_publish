@@ -5,7 +5,7 @@ const SectionHead = ({icon,title,className}) => {
       <div className={`section_head ${className}`}>
   
                   <span>{icon}</span>
-                  <h2>{title}</h2>
+                  <h5>{title}</h5>
               </div>
     )
   }

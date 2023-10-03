@@ -1,7 +1,7 @@
 nav{
     height: 7rem;
     width: 100vw;
-    background: var(--Notifications);
+    background: var(--Highlight);
     display: grid;
     place-items: center;
     position: fixed;
@@ -48,7 +48,7 @@ nav{
     display: block;
     width: 3rem;
     height: 3rem;
-    background:var(--Notifications);
+    background:var(--Highlight);
     position: absolute;
     left: calc(60%-0.6rem);
     transform: rotate(45deg);

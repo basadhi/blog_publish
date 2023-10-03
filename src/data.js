@@ -66,32 +66,32 @@ export const faqs = [
     },
     {
         id: 3,
-        question: "How long should my workouts be?",
-        answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+        question: "How do I contact customer support for assistance?",
+        answer: "You can reach our customer support team by using the Contact Us page on our website."
     },
     {
         id: 4,
-        question: "Do I need to warm up before my workouts?",
-        answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
+        question: "What is your warranty policy?",
+        answer: "Most of our products come with a standard manufacturer's warranty. The warranty duration and terms may vary by product, so please check the product page for specific details."
     },
     {
         id: 5,
-        question: "Should I do strength training, cardio or both?",
-        answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
+        question: "Do you provide installation services for electrical products?",
+        answer: "Currently, we do not offer installation services. However, we provide detailed product manuals and can recommend qualified electricians in your area if needed."
     },
     {
         id: 6,
-        question: "Should I lift weights for strength training?",
-        answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
+        question: "Are your products certified and safe to use?",
+        answer: "All our electrical products are sourced from reputable manufacturers and comply with industry standards. They are tested and certified to meet safety and performance requirements."
     }
 ]
 
 export const plans = [
     {
         id: 1,
-        name: 'Silver Package',
-        desc: 'This package is perfect for beginners who need constant help',
-        price: 29.99,
+        name: 'ORANGE',
+        desc: '2core 3core Earth Main Antana',
+        price: 3500 ,
         features: [
             {feature: 'First Feature', available: true},
             {feature: 'Second Feature', available: true},
@@ -110,9 +110,9 @@ export const plans = [
     },
     {
         id: 2,
-        name: 'Gold Package',
-        desc: 'This is the perfect package for beginners who know what their doing',
-        price: 49.99,
+        name: 'ACL',
+        desc: '2core 3core Earth Main Antana',
+        price: 3670,
         features: [
             {feature: 'First Feature', available: true},
             {feature: 'Second Feature', available: true},
@@ -131,9 +131,9 @@ export const plans = [
     },
     {
         id: 3,
-        name: 'Platinum Package',
-        desc: 'This package is perfect for busy people who need home service',
-        price: 89.99,
+        name: 'KELANI',
+        desc: '2core 3core Earth Main Antana',
+        price: 3660,
         features: [
             {feature: 'First Feature', available: true},
             {feature: 'Second Feature', available: true},
